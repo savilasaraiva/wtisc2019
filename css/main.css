@@ -143,6 +143,10 @@ a.rc{
 .container-top .infoW{
   padding: 0px 20px;
 }
+.container-top .infoW-mobile{
+  display: none;
+  padding: 0px 20px;
+}
 .container-top p{
   font-size: 120%;
   color: white;
@@ -690,6 +694,16 @@ thead tr:hover {
     flex-wrap: wrap;
     margin-bottom: 40px;
   }*/
+  .container-top{
+    background-position: 50% 0%;
+    background-size: 200%;
+  }
+  .container-top .infoW{
+    display: none;
+  }
+  .container-top .infoW-mobile{
+    display: inline-block;
+  }
   .tab{
     display: none;
   }

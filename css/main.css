@@ -7,6 +7,7 @@
 }
 body {
   background: #5795CB;
+  color: white;
   height: 100%;
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -14,19 +15,6 @@ body {
   line-height: 1.5em;
   margin: 0;
 }
-/*body {
-  background-image: url(../img/wallpaper_04.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5em;
-  margin: 0;
-}*/
 section {
   margin: 0 auto 2rem;
   padding: 1rem 2rem 2rem;
@@ -460,7 +448,7 @@ thead tr:hover {
   margin-bottom: 28px;
 }
 .tablinks{
-  color: #000000;
+  color: rgba(255, 255, 255, 0.719);
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -469,7 +457,7 @@ thead tr:hover {
 }
 .tablinks:hover{
   text-decoration: none;
-  border-bottom: solid #666666 1px;
+  border-bottom: solid #ffffff 1px;
   color: white;
   -webkit-animation: scale-up-center 0.4s both;
 	        animation: scale-up-center 0.4s both;
@@ -696,11 +684,17 @@ thead tr:hover {
   #imgDelivery{
     max-width: 80%;
   }
-  .tab{
+  /*.tab{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 40px;
+  }*/
+  .tab{
+    display: none;
+  }
+  .tabcontent{
+    display: block;
   }
   a.rc{
     margin: 0;

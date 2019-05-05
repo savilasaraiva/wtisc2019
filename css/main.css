@@ -526,7 +526,6 @@ thead tr:hover {
   padding: 20px;
   margin: 26px;
   text-align: center;
-  position: relative;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -566,6 +565,7 @@ thead tr:hover {
   border-radius: 14px;
   width: 328px;
   min-height: 182px;
+  margin: 40px;
 }
 .img-card-02 {
   background-image: url(../img/patro_02.jpg);
@@ -575,15 +575,17 @@ thead tr:hover {
   border-radius: 14px;
   width: 328px;
   min-height: 182px;
+  margin: 40px;
 }
 .img-card-03 {
-  background-image: url(../img/img_06.jpg);
+  background-image: url(../img/apoio_01_.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 14px;
   width: 328px;
   min-height: 182px;
+  margin: 40px;
 }
 .gallery {
   display: flex;
@@ -598,11 +600,6 @@ thead tr:hover {
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 40%;
-}
-
-.gallery img:hover{
-  -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes shadow-drop-2-center {
@@ -677,13 +674,14 @@ thead tr:hover {
   }
   .gallery img{
     width: 100%;
-    margin: 5px;
+    margin: 0;
+    margin-bottom: 40px;
   }
   .img-card-01, 
   .img-card-02, 
   .img-card-03{
     max-width: 90%;
-    margin: 0;
+    margin: 20px;
   }
   #imgDelivery{
     max-width: 80%;

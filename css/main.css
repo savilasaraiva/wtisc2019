@@ -597,7 +597,7 @@ thead tr:hover {
   padding: 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 36%;
+  width: 40%;
 }
 
 .gallery img:hover{
@@ -674,6 +674,10 @@ thead tr:hover {
     height: auto;
     padding: 10px;
     margin: 20px 0px 20px 0px;
+  }
+  .gallery img{
+    width: 100%;
+    margin: 5px;
   }
   .img-card-01, 
   .img-card-02, 

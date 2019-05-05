@@ -701,4 +701,7 @@ thead tr:hover {
   .footer{
     flex-direction: column;
   }
+  .gallery{
+    flex-direction: column;
+  }
 }

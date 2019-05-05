@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WTISC 2019</title>
+    <link rel="icon" href="img/logo_icon.ico" type="image/x-icon" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-top">
+      <header class="header">
+        <h1 class="logo"><a class="btn-simple" href="index.html">WTISC</a>
+        </h1>
+        <ul class="main-nav">
+          <li><a class="btn-simple" id="inscr" href="inscricoes.html">Inscrições</a></li>
+          <li><a class="btn-simple" id="contato" href="contato.html">Contato</a></li>
+          <li><a class="btn-principal" id="program" href="program.html">Programação</a></li>
+        </ul>
+      </header>
+      <img class="logo-wtisc2019" src="/img/Material WTISC 2019-15.png" alt="WTISC">
+    </div>
+    <div class="container">
+      <section class="column">
+        <h1 class="titleMenu white">Programação</h1>
+        <p class="title-md rose text-left"></p>
+        <div class="tab">
+          <a class="tablinks active" onclick="openPratos(event, 'minicurs')">Minicursos</a>
+          <a class="tablinks" onclick="openPratos(event, 'pal-mes')">Palestras e Mesa Redonda</a>
+        </div>
+        <div id="minicurs" class="tabcontent">
+          <p><strong>Aviso:</strong> Pedimos encarecidamente, que se possível, utilize seu computador pessoal.<br>
+            Lista de ferramentas a serem utilizadas em seus respectivos minicursos
+            <a
+              href="https://docs.google.com/document/d/1kWKT3EfbCB7kSGPlzxErtxvhU3e2mKdAVDQBcXhBnzg/edit?usp=sharing">aqui</a>.
+          </p>
+          <div class="ctn-2 gallery">
+            <img src="img/minicursos/1.png" alt="Minicurso 01">
+            <img src="img/minicursos/2.png" alt="Minicurso 02">
+            <img src="img/minicursos/3.png" alt="Minicurso 03">
+            <img src="img/minicursos/4.png" alt="Minicurso 04">
+          </div>
+        </div>
+
+        <div id="pal-mes" class="tabcontent">
+          <div class="ctn-2 gallery">
+            <img src="img/mesa redonda/mesa2.png" alt="Mesa Redonda 01">
+            <img src="img/palestras/1.png" alt="Palestra 01">
+            <img src="img/palestras/2.png" alt="Palestra 02">
+            <img src="img/palestras/3.png" alt="Palestra 03">
+            <img src="img/palestras/4.png" alt="Palestra 04">
+            <img src="img/palestras/5.png" alt="Palestra 05">
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-bottom">
+      <div class="footer">
+        <div class="social-media">
+          <a href="https://www.facebook.com/petsiufc">
+            <div class="icon-social-media face"></div>
+          </a>
+          <a href="https://www.instagram.com/petsi.ufc/">
+            <div class="icon-social-media insta"></div>
+          </a>
+          <a href="https://twitter.com/PET_SI_UFC">
+            <div class="icon-social-media twitter"></div>
+          </a>
+        </div>
+      </div>
+      <div>© PET-SI 2019 - Todos os direitos reservados.</div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript">
+    $(".main-nav a").removeClass("selected");
+    $("#program").addClass("selected");
+    tabs = document.getElementsByClassName("tabcontent");
+    tabs[0].style.display = "block";
+  </script>
+
+</html>

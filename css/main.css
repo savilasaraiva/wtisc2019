@@ -587,6 +587,16 @@ thead tr:hover {
   min-height: 182px;
   margin: 40px;
 }
+.img-card-04 {
+  background-image: url(../img/patro_03.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 14px;
+  width: 328px;
+  min-height: 182px;
+  margin: 40px;
+}
 .gallery {
   display: flex;
   flex-direction: row;

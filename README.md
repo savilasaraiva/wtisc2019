@@ -1,3 +1,6 @@
-# wtisc2019
+# WTISC 2019
+**Workshop de Tecnologia da Informação do Sertão Central**
 
-https://savilasaraiva.github.io/wtisc2019/.
+*Universidade Federal do Ceará - Campus Quixadá*
+
+[Ver no Github Pages](https://savilasaraiva.github.io/wtisc2019/)

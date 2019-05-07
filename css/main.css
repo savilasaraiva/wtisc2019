@@ -642,14 +642,12 @@ thead tr:hover {
   height: 80px;
   margin-bottom: 5px;
 }
-
 .imagens {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.2em;
   width: 50%;
 }
-
 .img-card-01 {
   background-image: url(../img/patro_01.jpg);
   background-position: center center;
@@ -660,7 +658,6 @@ thead tr:hover {
   min-height: 182px;
   margin: 40px;
 }
-
 .img-card-02 {
   background-image: url(../img/patro_02.jpg);
   background-position: center center;
@@ -671,7 +668,6 @@ thead tr:hover {
   min-height: 182px;
   margin: 40px;
 }
-
 .img-card-03 {
   background-image: url(../img/apoio_01_.png);
   background-position: center center;
@@ -682,9 +678,18 @@ thead tr:hover {
   min-height: 182px;
   margin: 10px;
 }
-
 .img-card-04 {
   background-image: url(../img/patro_03.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 14px;
+  width: 328px;
+  min-height: 182px;
+  margin: 40px;
+}
+.img-card-05 {
+  background-image: url(../img/patro_04.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
